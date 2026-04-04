@@ -64,7 +64,8 @@
 }
 
 .header__menu a:not(.header__link_active):hover,
-.address-block a:hover, .footer__menu a:not(.footer__menu-link_active):hover {
+.address-block a:hover,
+.footer__menu a:not(.footer__menu-link_active):hover {
   opacity: 0.6;
   text-decoration: none;
 }
@@ -338,8 +339,8 @@
 }
 
 .footer__social-link:hover {
-  background: #000;
   outline: 0.1rem solid #000;
+  background: #000;
 }
 
 .footer__social-link:hover img {
