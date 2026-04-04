@@ -12,7 +12,7 @@
 .header a,
 .footer a {
   transition-duration: 0.3s;
-  transition-property: opacity;
+  transition-property: opacity, background, outline;
 }
 
 .header a {
@@ -64,7 +64,7 @@
 }
 
 .header__menu a:not(.header__link_active):hover,
-address a:hover {
+.address-block a:hover, .footer__menu a:not(.footer__menu-link_active):hover {
   opacity: 0.6;
   text-decoration: none;
 }
@@ -333,6 +333,17 @@ address a:hover {
   display: block;
   width: 2.4rem;
   height: 2.4rem;
+  border-radius: 50%;
+  outline: 0.1rem solid #fff;
+}
+
+.footer__social-link:hover {
+  background: #000;
+  outline: 0.1rem solid #000;
+}
+
+.footer__social-link:hover img {
+  filter: invert(100%);
 }
 
 /* End Footer */
