@@ -58,7 +58,7 @@
   flex-direction: column;
   font-style: normal;
 }
-.header__address-block  p {
+.header__address-block p {
   max-width: 12rem;
   line-height: 1.2rem;
 }
@@ -69,7 +69,7 @@ address a:hover {
   text-decoration: none;
 }
 
-.header__address-block  {
+.header__address-block {
   justify-self: end;
 }
 
@@ -89,7 +89,7 @@ address a:hover {
 
 .overlay {
   position: absolute;
-  inset: 0; 
+  inset: 0;
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.6);
